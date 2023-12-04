@@ -1,0 +1,50 @@
+/*
+ * => universal selector |
+ div => tag selector |
+ p => tag selector |
+ .text_bk => class selector |
+ #big_div => ID selector |
+----
+ div => seletor |
+ width => property |
+ 200px => value |
+ width: 200px; => Diclaration |
+----
+ Group Selector
+ .first_div,
+.text_bk {
+  background: blue;
+}
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  width: 200px;
+  height: 200px;
+  background: aqua;
+  margin-bottom: 20px;
+}
+div p {
+  color: #000;
+}
+.text_bk {
+  color: red;
+  text-align: right;
+}
+p {
+  color: blue;
+  font-size: 18px;
+}
+.first_div,
+.text_bk {
+  background: blue;
+}
+.first_div p {
+  color: white;
+}
+#big_div {
+  width: 400px;
+}
